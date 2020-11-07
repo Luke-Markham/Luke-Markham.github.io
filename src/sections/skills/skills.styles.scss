@@ -1,0 +1,119 @@
+.skills-container {
+  position: relative;
+  font-family: "Quantico", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  margin: 1em 0;
+  @media screen and(min-width: 768px) {
+    margin: 3.25em 0;
+  }
+}
+
+.skills-container:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("../../assets/general/try1.jpeg");
+  background-size: cover;
+  opacity: 0.8;
+  @media screen and(min-width: 768px) {
+    animation: roll 45s linear infinite;
+  }
+}
+
+.skills-intro-text {
+  font-size: 0.8em;
+  text-align: center;
+  margin-bottom: 2em;
+  @media screen and(min-width:370px) {
+    font-size: 1em;
+  }
+  @media screen and(min-width:500px) {
+    font-size: 1.2em;
+  }
+  @media screen and(min-width:768px) {
+    font-size: 2.5vw;
+  }
+  @media screen and(min-width:1040px) {
+    padding: 1.5em 0;
+  }
+}
+
+.skills-cols-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100%;
+}
+
+.col-1,
+.col-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-item-container {
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  @media screen and(min-width:768px) {
+    font-size: 1.75vw;
+  }
+}
+
+.icon {
+  padding: 1vw;
+  width: 12.5vw;
+  height: 12.5vw;
+  &:hover {
+    animation: enlarge 0.4s ease-in-out;
+  }
+  @media screen and(min-width:500px) {
+    width: 10vw;
+    height: 10vw;
+  }
+  @media screen and(min-width:768px) {
+    width: 8vw;
+    height: 8vw;
+  }
+  @media screen and(min-width:1280px) {
+    width: 6.5vw;
+    height: 6.5vw;
+  }
+}
+
+// Keyframes =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+@keyframes enlarge {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: rotate3d(0, 2, 1, 5deg);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes roll {
+  0% {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+}

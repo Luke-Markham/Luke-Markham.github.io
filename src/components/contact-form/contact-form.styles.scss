@@ -1,0 +1,9 @@
+.contact-form {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  text-align: center;
+  @media screen and(max-width: 1000px) {
+    width: 80%;
+  }
+}

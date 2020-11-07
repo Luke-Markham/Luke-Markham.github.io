@@ -1,0 +1,20 @@
+.top-bkg-wrapper-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  animation: Topbkg 1s ease-in;
+  background-image: url("../../assets/general/try0.jpeg");
+  background-size: cover;
+  background-position: right;
+}
+
+@keyframes Topbkg {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

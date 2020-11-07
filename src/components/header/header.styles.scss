@@ -1,0 +1,24 @@
+.header-bar {
+  position: absolute;
+  right: 0%;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 20vw;
+}
+
+.nav-toggle-image {
+  width: 4vh;
+  height: 4vh;
+}
+
+.nav-toggle-open-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  transition: transform 0.2s ease-in;
+  &:hover {
+    transform: scale(1.1);
+  }
+}

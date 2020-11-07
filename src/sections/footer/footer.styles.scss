@@ -1,0 +1,24 @@
+footer {
+  margin: 1.5em auto 0 auto;
+  font-family: "Quantico", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw;
+  font-size: 0.7em;
+  @media screen and(min-width:450px) {
+    font-size: 0.9em;
+  }
+  @media screen and(min-width:768px) {
+    font-size: 1.5vw;
+  }
+}
+
+.back-to-top-link {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    @media screen and(min-width:768px) {
+      font-size: 1.6vw;
+    }
+  }
+}

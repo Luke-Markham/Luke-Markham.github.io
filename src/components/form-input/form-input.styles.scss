@@ -1,0 +1,80 @@
+@mixin shrinkLabel {
+  top: -14px;
+  font-size: 12px;
+  color: black;
+  @media screen and(min-width:1280px) {
+    font-size: 0.8vw;
+    top: -25px;
+  }
+  @media screen and(min-width:3000px) {
+    top: -40px;
+  }
+}
+
+.group {
+  position: relative;
+  margin: 2em 0;
+
+  .form-input {
+    font-family: "Quantico", sans-serif;
+    font-size: 0.8em;
+    display: block;
+    width: 100%;
+    color: black;
+    padding: 10px 10px 10px 5px;
+    background: none;
+    background-color: white;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid grey;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:focus ~ .form-input-label {
+      @include shrinkLabel();
+    }
+    @media screen and(min-width:400px) {
+      font-size: 1em;
+    }
+    @media screen and(min-width:768px) {
+      font-size: 1.75vw;
+    }
+    @media screen and(min-width:1040px) {
+      font-size: 1.5vw;
+    }
+    @media screen and(min-width:3000px) {
+      margin-top: 8vh;
+    }
+  }
+
+  input[type="password"] {
+    letter-spacing: 0.3em;
+  }
+
+  .form-input-label {
+    font-family: "Quantico", sans-serif;
+    font-size: 0.8em;
+    color: grey;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 300ms ease all;
+
+    &.shrink {
+      @include shrinkLabel();
+    }
+    @media screen and(min-width:400px) {
+      font-size: 1em;
+    }
+    @media screen and(min-width:768px) {
+      font-size: 1.75vw;
+    }
+    @media screen and(min-width:1040px) {
+      font-size: 1.5vw;
+    }
+  }
+}

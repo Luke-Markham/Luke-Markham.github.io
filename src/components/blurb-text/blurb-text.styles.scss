@@ -1,0 +1,53 @@
+.blurb-container {
+  margin: 2em auto 0 auto;
+  animation: fadeIn 1s 0.7s ease-in backwards;
+  @media screen and(min-width:500px) {
+    width: auto;
+    margin-top: 5%;
+  }
+}
+
+.blurb {
+  font-family: "Quantico", sans-serif;
+  font-size: 1.1em;
+  margin: 0;
+  border-right: 2px solid black;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 3.5s steps(40) 1s normal both,
+    blinkTextCursor 0.7s steps(40) infinite normal;
+  @media screen and(min-width:768px) {
+    font-size: 2.5vw;
+  }
+}
+
+// keyframes =-=-=-=-=-=-=-=-=-=-=
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*Animation*/
+
+@keyframes typewriter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: black;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
