@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'blockbuster';
+  src: local('blockbuster'), url('./Blockbuster.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'japaneseComic';
+  src: local('japaneseComic'), url('./Ungai.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

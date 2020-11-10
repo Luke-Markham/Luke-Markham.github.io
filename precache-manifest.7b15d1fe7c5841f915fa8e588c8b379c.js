@@ -1,31 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "695805616e5790edc89ecf5ef19d03a6",
+    "revision": "82f440fe613295e2b75ee84fbbfb1b6f",
     "url": "/Luke-Markham.github.io/index.html"
   },
   {
-    "revision": "cba6398ab266d1c181bc",
-    "url": "/Luke-Markham.github.io/static/css/main.b3873a75.chunk.css"
+    "revision": "6451cfa27ae5b71a0b5a",
+    "url": "/Luke-Markham.github.io/static/css/main.616386e6.chunk.css"
   },
   {
-    "revision": "640e2771d0cbf0a94074",
-    "url": "/Luke-Markham.github.io/static/js/2.e0f7edf6.chunk.js"
+    "revision": "69f1baa9e5fe1f59a61e",
+    "url": "/Luke-Markham.github.io/static/js/2.58856599.chunk.js"
   },
   {
-    "revision": "cba6398ab266d1c181bc",
-    "url": "/Luke-Markham.github.io/static/js/main.56044844.chunk.js"
+    "revision": "6451cfa27ae5b71a0b5a",
+    "url": "/Luke-Markham.github.io/static/js/main.0604a148.chunk.js"
   },
   {
     "revision": "9b28b7eed8b1b8299cae",
     "url": "/Luke-Markham.github.io/static/js/runtime~main.52e88480.js"
-  },
-  {
-    "revision": "35267c7b4ab0c5bcab0cfec14f575460",
-    "url": "/Luke-Markham.github.io/static/media/Blockbuster.35267c7b.ttf"
-  },
-  {
-    "revision": "1e3dd3f3b6ab8cd1585d1f2b24f1e9d5",
-    "url": "/Luke-Markham.github.io/static/media/Ungai.1e3dd3f3.ttf"
   },
   {
     "revision": "36ec8b817a8d21ad2c90eee7d28d5413",
