@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "02486dd4062295214a611c131e0aca40",
+    "revision": "720c3eeb1084ed15c40672057feeb0d6",
     "url": "/Luke-Markham.github.io/index.html"
   },
   {
-    "revision": "ed105e1b03c6329b519b",
-    "url": "/Luke-Markham.github.io/static/css/main.ddd60bad.chunk.css"
+    "revision": "8ad3fb281bbbb1fc9015",
+    "url": "/Luke-Markham.github.io/static/css/main.c43e2b27.chunk.css"
   },
   {
-    "revision": "7f68769a990284216aab",
-    "url": "/Luke-Markham.github.io/static/js/2.e0e623da.chunk.js"
+    "revision": "640e2771d0cbf0a94074",
+    "url": "/Luke-Markham.github.io/static/js/2.e0f7edf6.chunk.js"
   },
   {
-    "revision": "ed105e1b03c6329b519b",
-    "url": "/Luke-Markham.github.io/static/js/main.bb484581.chunk.js"
+    "revision": "8ad3fb281bbbb1fc9015",
+    "url": "/Luke-Markham.github.io/static/js/main.56044844.chunk.js"
   },
   {
     "revision": "9b28b7eed8b1b8299cae",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "35267c7b4ab0c5bcab0cfec14f575460",
     "url": "/Luke-Markham.github.io/static/media/Blockbuster.35267c7b.ttf"
+  },
+  {
+    "revision": "1e3dd3f3b6ab8cd1585d1f2b24f1e9d5",
+    "url": "/Luke-Markham.github.io/static/media/Ungai.1e3dd3f3.ttf"
   },
   {
     "revision": "36ec8b817a8d21ad2c90eee7d28d5413",
@@ -52,10 +56,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Luke-Markham.github.io/static/media/github.c0babe25.svg"
   },
   {
-    "revision": "6270a2d4757a839d4653c02f3db32e2f",
-    "url": "/Luke-Markham.github.io/static/media/graphql.6270a2d4.svg"
-  },
-  {
     "revision": "f0361c5e9bebc1c5647523db385641cf",
     "url": "/Luke-Markham.github.io/static/media/html5.f0361c5e.svg"
   },
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Luke-Markham.github.io/static/media/javascript.b180c1c9.svg"
   },
   {
-    "revision": "ea9cdc83e9e0ebe92e5583f9ff466b5c",
-    "url": "/Luke-Markham.github.io/static/media/jest.ea9cdc83.svg"
+    "revision": "e71f95b87051c992cc19a647c80ea92c",
+    "url": "/Luke-Markham.github.io/static/media/jquery.e71f95b8.svg"
   },
   {
     "revision": "1b12cb648fa914265b896133a5414db4",
@@ -88,8 +88,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Luke-Markham.github.io/static/media/openNav.a8c1d3d5.svg"
   },
   {
-    "revision": "213b0fa995f87caccc5cc4dc26b51302",
-    "url": "/Luke-Markham.github.io/static/media/profile-pic.213b0fa9.jpg"
+    "revision": "7cea9f8688b44aa0ded544e11fb50854",
+    "url": "/Luke-Markham.github.io/static/media/php.7cea9f86.svg"
+  },
+  {
+    "revision": "bf4f5f06745fe6e0a0e5750a153d582e",
+    "url": "/Luke-Markham.github.io/static/media/profile-pic2.bf4f5f06.jpg"
   },
   {
     "revision": "6980f38e33279143821ca37f6b525b63",
@@ -114,6 +118,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9ffa48a14195e86e727f27b57be0e8b7",
     "url": "/Luke-Markham.github.io/static/media/styleGuide-preview.9ffa48a1.png"
+  },
+  {
+    "revision": "203601b5f3dbd6250ed1eecdb8332986",
+    "url": "/Luke-Markham.github.io/static/media/thunder.203601b5.png"
   },
   {
     "revision": "f0630b755c51c32dad4930ca40ddfb79",
