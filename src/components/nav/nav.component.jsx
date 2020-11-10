@@ -1,17 +1,16 @@
-import React from "react";
-import "./nav.styles.scss";
-import { animated, useTransition } from "react-spring";
-import * as Scroll from "react-scroll";
-import { ReactComponent as CloseNav } from "../../assets/general/closeNav.svg";
+import React from 'react';
+import './nav.styles.scss';
+import { animated, useTransition } from 'react-spring';
+import * as Scroll from 'react-scroll';
+import { ReactComponent as CloseNav } from '../../assets/general/closeNav.svg';
 
-const Nav = properties => {
+const Nav = (properties) => {
   const { displayNav, toggle } = properties;
   const slideDown = useTransition(displayNav, null, {
-    from: { transform: "translateX(+100%)", transformStyle: "translateZ(1)" },
-    enter: { transform: "translateX(0%)", transformStyle: "translateZ(1)" },
-    leave: { transform: "translateX(+100%)", transformStyle: "translateZ(1)" }
+    from: { transform: 'translateX(+100%)', transformStyle: 'translateZ(1)' },
+    enter: { transform: 'translateX(0%)', transformStyle: 'translateZ(1)' },
+    leave: { transform: 'translateX(+100%)', transformStyle: 'translateZ(1)' },
   });
-
   const Link = Scroll.Link;
 
   return slideDown.map(

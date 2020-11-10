@@ -1,6 +1,13 @@
 @font-face {
-  font-family: "blockbuster";
-  src: url("./assets/general/Blockbuster.ttf") format("truetype");
+  font-family: 'blockbuster';
+  src: url('./assets/general/Blockbuster.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'japaneseComic';
+  src: url('./assets/general/Ungai.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -9,7 +16,16 @@
   box-sizing: border-box;
 }
 
+.App {
+  overflow: hidden;
+}
+
 body {
   margin: 0;
-  overflow-x: hidden;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }

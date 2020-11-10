@@ -1,35 +1,35 @@
-import React from "react";
-import { Bounce, Fade } from "react-reveal";
-import * as Scroll from "react-scroll";
-import LazyLoad from "react-lazyload";
-import "./skills.styles.scss";
-import { ReactComponent as HTMLIcon } from "../../assets/skills/html5.svg";
-import { ReactComponent as CSSIcon } from "../../assets/skills/css3.svg";
-import { ReactComponent as JSIcon } from "../../assets/skills/javascript.svg";
-import { ReactComponent as ReactIcon } from "../../assets/skills/react.svg";
-import { ReactComponent as ReduxIcon } from "../../assets/skills/redux.svg";
-import { ReactComponent as SassIcon } from "../../assets/skills/sass.svg";
-import { ReactComponent as BootstrapIcon } from "../../assets/skills/bootstrap.svg";
-import { ReactComponent as GraphQLIcon } from "../../assets/skills/graphql.svg";
-import { ReactComponent as FirebaseIcon } from "../../assets/skills/firebase.svg";
-import { ReactComponent as JestIcon } from "../../assets/skills/jest.svg";
-import BlurbText from "../../components/blurb-text/blurb-text.component";
+import React from 'react';
+import { Bounce, Fade } from 'react-reveal';
+import * as Scroll from 'react-scroll';
+import LazyLoad from 'react-lazyload';
+import './skills.styles.scss';
+import { ReactComponent as HTMLIcon } from '../../assets/skills/html5.svg';
+import { ReactComponent as CSSIcon } from '../../assets/skills/css3.svg';
+import { ReactComponent as JSIcon } from '../../assets/skills/javascript.svg';
+import { ReactComponent as ReactIcon } from '../../assets/skills/react.svg';
+import { ReactComponent as ReduxIcon } from '../../assets/skills/redux.svg';
+import { ReactComponent as SassIcon } from '../../assets/skills/sass.svg';
+import { ReactComponent as BootstrapIcon } from '../../assets/skills/bootstrap.svg';
+import { ReactComponent as JqueryIcon } from '../../assets/skills/jquery.svg';
+import { ReactComponent as FirebaseIcon } from '../../assets/skills/firebase.svg';
+import { ReactComponent as PhpIcon } from '../../assets/skills/php.svg';
+import BlurbText from '../../components/blurb-text/blurb-text.component';
 
 const Skills = () => {
   const skillsCol1Array = [
     <HTMLIcon className="icon" name="HTML5" />,
     <CSSIcon className="icon" name="CSS3" />,
     <JSIcon className="icon" name="JavaScript" />,
+    <PhpIcon className="icon" name="PHP" />,
     <ReactIcon className="icon" name="React" />,
-    <ReduxIcon className="icon" name="Redux" />
   ];
 
   const skillsCol2Array = [
+    <ReduxIcon className="icon" name="Redux" />,
     <SassIcon className="icon" name="Sass" />,
     <BootstrapIcon className="icon" name="Bootstrap" />,
-    <GraphQLIcon className="icon" name="GraphQL" />,
+    <JqueryIcon className="icon" name="jQuery" />,
     <FirebaseIcon className="icon" name="Firebase" />,
-    <JestIcon className="icon" name="Jest" />
   ];
 
   const Element = Scroll.Element;

@@ -1,8 +1,8 @@
-import React from "react";
-import * as Scroll from "react-scroll";
-import "./about-me.styles.scss";
-import profilePic from "../../assets/general/profile-pic.jpg";
-import Fade from "react-reveal";
+import React from 'react';
+import * as Scroll from 'react-scroll';
+import './about-me.styles.scss';
+import profilePic from '../../assets/general/profile-pic2.jpg';
+import Fade from 'react-reveal';
 const AboutMe = () => {
   const Element = Scroll.Element;
   return (

@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { ReactComponent as OpenNav } from "../../assets/general/openNav.svg";
-import "./header.styles.scss";
-import Nav from "../nav/nav.component";
-import * as Scroll from "react-scroll";
+import React, { useState } from 'react';
+import { ReactComponent as OpenNav } from '../../assets/general/openNav.svg';
+import './header.styles.scss';
+import Nav from '../nav/nav.component';
+import * as Scroll from 'react-scroll';
 
 const Header = () => {
   const [displayNav, openAndCloseNav] = useState(false);
@@ -22,7 +22,6 @@ const Header = () => {
             </div>
           </div>
         </div>
-
         <Nav displayNav={displayNav} toggle={handleNavToggle} />
       </header>
     </Element>

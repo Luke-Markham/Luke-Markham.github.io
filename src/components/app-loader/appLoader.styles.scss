@@ -1,0 +1,48 @@
+.app-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.loading-container {
+  animation: bounce 2s ease-in-out backwards;
+}
+
+#loading {
+  height: 40px;
+  width: 44px;
+  background: url('../../assets/general/coin-sprite-animation.png') 0px 0px;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-1000%);
+  }
+  20% {
+    transform: translateY(0%);
+  }
+  30% {
+    transform: translateY(-175%);
+  }
+  40% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-75%);
+  }
+  60% {
+    transform: translateY(0%);
+  }
+  70% {
+    transform: translateY(-25%);
+  }
+  75% {
+    opacity: 1;
+  }
+  80% {
+    transform: translateY(-0%);
+  }
+}

@@ -1,14 +1,14 @@
-import React from "react";
-import "./footer.styles.scss";
-import * as Scroll from "react-scroll";
-import Bounce from "react-reveal";
+import React from 'react';
+import './footer.styles.scss';
+import * as Scroll from 'react-scroll';
+import Bounce from 'react-reveal';
 
 const Footer = () => {
   const Link = Scroll.Link;
   return (
     <footer>
       <Bounce left>
-        <span>LEM 2019 &copy;</span>
+        <span>LEM 2020 &copy;</span>
       </Bounce>
       <Bounce right>
         <Link

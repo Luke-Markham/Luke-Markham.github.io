@@ -1,19 +1,16 @@
 .header-bar {
   position: absolute;
   right: 0%;
-  padding: 10px 20px;
-}
-
-.logo {
-  width: 20vw;
+  padding: 10px;
 }
 
 .nav-toggle-image {
-  width: 4vh;
-  height: 4vh;
+  width: 30px;
+  height: 30px;
 }
 
 .nav-toggle-open-button {
+  cursor: pointer;
   background-color: transparent;
   border: none;
   outline: none;
